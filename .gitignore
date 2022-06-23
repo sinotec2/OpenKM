@@ -1,8 +1,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-_pdf
-.DS_Store
 .idea
-vendor/
-.bundle/
+_algolia_api_key
+outputs/
+s3_website.yml
