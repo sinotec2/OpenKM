@@ -893,6 +893,11 @@ span.soft {
     max-height: 100%;
 }
 
+/* by Kuang */
+.col-xs-12 {
+    background-color: #fff;
+}
+.col-sm-2{width:16.66666667%}
 
 .post-content img {
     margin: 12px 0px 3px 0px;
@@ -1202,7 +1207,7 @@ h4.panel-title {
     }
 }
 
-/* collapsed sidebar styles */
+/* collapsed sidebar styles by Kuang */
 @media screen and (max-width: 767px) {
     .row-offcanvas {
         position: relative;
