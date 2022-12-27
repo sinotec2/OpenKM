@@ -36,7 +36,8 @@ last_modified_date: 2022-12-27 11:00:45
   1. 開頭200.200.XXX.XXX均為「內部」網站，與公司資訊安全之管理(檔案進出公司防火牆)「無關」下載後送出公司外部時、或由外部獲得資料上載到KM，進出公司之際還是必須遵守公司資安設定。
   2. 12.191(master)為備份、屬試驗性質，必要時才開放，請勿存放文件。
 
-![](https://github.com/sinotec2/Focus-on-Air-Quality/raw/main/assets/images/CAM-chemSpec.png)
+![](https://github.com/sinotec2/openKM/raw/main/assets/images/login
+.png)
 
 
 ### 使用者帳密
