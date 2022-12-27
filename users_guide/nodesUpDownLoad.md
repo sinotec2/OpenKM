@@ -47,6 +47,8 @@ last_modified_date: 2022-12-27 14:27:14
 - 選擇時要注意是否有勾選「過濾」，如果勾選了，將無名單顯示，須先取消「過濾」才能選擇。
 - 如果方向鍵不能作用，試看看不同方向。
 
+![notify_to_users](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/notify_to_users.png?raw=true)
+
 ### email通知功能
 
 - 如果伺服器沒有收信的功能，也不會留存寄件備份，可以在external mail address寫下自己的email，這樣openKM也會寄一份通知給自己做為備份。
