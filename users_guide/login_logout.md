@@ -23,6 +23,26 @@ last_modified_date: 2022-12-27 11:00:45
 
 ## 背景
 
+- openKM可以說擁有KMS領域的最大open source社群 ，其他KMS或有免費版本，但並未提供程式碼，openKM的社群版本雖然也提供了專業版和雲端版，但是廠商還是鼓勵社群可以就其程式碼自行修改，以滿足使用者的需求，並且在此歷程提供必要的協助。
+- 依據2019/7/26日[官網論壇](https://forum.openkm.com/index.php)WHO IS ONLINE：
+  - In total there are 374 users online, 
+  - 4 registered, 0 hidden and 370guests (based on users active over the past 5 minutes)
+  - Most users ever online was 1263 on Mon Jan 28, 2019 7:29 pm。
+- 其forum發表情形：STATISTICS
+  - Total posts 31953/ Total topics 6010/ Total members 3419
+- 其市佔情形：
+  - aimed at all industries, regardless of company size.
+  - has made over 6,500 installations worldwide
+  - Community version has a monthly average of 5,000 downloads.
+- Buyers
+  - ABC hospitals/ Cherokee Nation/ Deloitte/ DGT/ Factor Energia
+  - Modria/ Sernageomin/ United States Government/ Ypergas/ Zoetis。
+- 詳見[有關KM決策的建議.pdf][km_dcs]
+  
+
+
+- openKM與其他KMS的比較，可以參考wiki 或網友 的介紹。
+
 - 使用手冊除了官網([6.4][6.4]、[7.1][7.1])之外，亦有泰國機關所摘寫的英文版手冊([OKM6.4][OKM6.4])
 - 其他：可詳見[quick start][qs]
 
@@ -95,8 +115,8 @@ last_modified_date: 2022-12-27 11:00:45
 2. 由File(文件)→Exit(退出)→Accept(接受)
 3. 開著網頁沒有存取，openKM紀錄是有差別的，所以不必擔心掛網有什麼後果。
 
-
 [6.4]: <https://docs.openkm.com/kcenter/view/okm-6.4/> "OpenKM(2016)Documentation for OpenKM"
 [7.1]: <https://docs.openkm.com/kcenter/view/okm-7.1/> "OpenKM(2016)Documentation for OpenKM"
 [OKM6.4]: <https://www.seameo.org/seameoweb2/images/stories/Programmes_Projects/OpenKM/OpenKM%20User%20Guide.pdf> "Southeast Asian Ministers of Education Organization Secretariat (SEAMEO Secretariat) OpenKM Users Guide"
 [qs]: <https://docs.openkm.com/kcenter/view/okm-6.3-com/quick-start.html> "OpenKM(2016)OpenKM 6.3 - CE Quick start"
+[km_dcs]: <http://openkm.sinotech-eng.com:8080/OpenKM/index.jsp?uuid=1544f8fa-e45a-40a6-bd99-5d2fbef832a1> "曠永銓(2019)有關KM決策的建議"
