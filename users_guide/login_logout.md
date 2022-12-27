@@ -109,7 +109,8 @@ last_modified_date: 2022-12-27 11:00:45
 
 1. 關閉網頁即可、或
 2. 由File(文件)→Exit(退出)→Accept(接受)
-3. 開著網頁沒有存取，openKM紀錄是有差別的，所以不必擔心掛網有什麼後果。
+3. 系統會出現「已經正確關閉」對話框
+4. 開著網頁沒有存取，openKM紀錄是有差別的，所以不必擔心掛網有什麼後果。
 
 [6.4]: <https://docs.openkm.com/kcenter/view/okm-6.4/> "OpenKM(2016)Documentation for OpenKM"
 [7.1]: <https://docs.openkm.com/kcenter/view/okm-7.1/> "OpenKM(2016)Documentation for OpenKM"
