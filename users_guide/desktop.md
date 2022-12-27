@@ -86,13 +86,20 @@ last_modified_date: 2022-12-27 14:27:14
 ### 文件列表
 
 - 位置在「桌面」中上
-- 第一行為所在的目錄(非實質目錄)。此處列表包括目錄、檔案、以及郵件，可以分開點選。
+- 第一行為所在的目錄(非實質目錄)。此處列表包括項
+  1. 目錄(黃色文件夾)、
+  2. 檔案(淺藍色文件)、以及
+  3. 郵件(白色信封)，可以分別點選。
 - 其次漏斗為篩選「過濾」，可以設定名稱、大小、日期、作者、版本等進行篩選。
 - 分頁與否，以及排序(反轉)，須在此設定，按表頭並不會作用。
 - 勾選同批處理，也可以按detail圖案全選。
 - 增加屬性(metadata)：針對文件或目錄的評等。按詮釋資料中的定義來勾選。
 
-![fs_sort](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/download.png?raw=true)
+![fs_sort](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/fs_sort.png?raw=true)
+
+- 編輯中(紙張+筆)、有評論文件(黃色便利貼)
+
+![fs_sort](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/fs_sort.png?raw=true)
 
 ### 文件屬性及預覽
 
