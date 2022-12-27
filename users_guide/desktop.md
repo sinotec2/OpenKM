@@ -99,7 +99,7 @@ last_modified_date: 2022-12-27 14:27:14
 
 - 編輯中(紙張+筆)、有評論文件(黃色便利貼)
 
-![fs_sort](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/fs_sort.png?raw=true)
+![comment](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/comment.png?raw=true)
 
 ### 文件屬性及預覽
 
