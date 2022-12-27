@@ -39,8 +39,7 @@ last_modified_date: 2022-12-27 14:27:14
 3. 如果要再在同一目錄增加檔案，可以在同畫面繼續進行。
 4. 「通知用戶」notify to user
 
-![search](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/search.png?raw=true)
-
+![add_new_doc](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/add_new_doc.png?raw=true)
 
 ### 通知用戶功能
 
