@@ -58,9 +58,9 @@ last_modified_date: 2022-12-27 11:00:45
   3. 「用戶配置」，可更改個人密碼、信箱(下述)等設定。
 - 唯「角色」的設定是管理者權限範圍，被分配到某一(些)群組，須由管理者來修改。
 
-|![pw1](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/passwd1.PNG?raw=true)|![pw2](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/passwd2.PNG?raw=true)|
+|![pw1](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/passwd1.png?raw=true)|![pw2](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/passwd2.png?raw=true)|
 |:-:|:-:|
-||:-:|
+|進入修改密碼畫面之途徑|修改密碼之對話框|
 
 ### 語言
 
@@ -77,6 +77,8 @@ last_modified_date: 2022-12-27 11:00:45
 - 由於系統對設定、目錄檔案的增刪有可能會有些時間差落後，因此系統提供了2個方式刷新
   - 「文件」→刷新，以及「桌面」「個人看板」上方有小工具「刷新」。
   - 按下瀏覽器的「重新整理」系統也會重新載入設定，但「不會」登出，要登出還是要按照下列步驟。
+
+![redraw](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/redraw.png?raw=true)
 
 ### 重覆登入
 
