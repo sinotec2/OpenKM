@@ -2,7 +2,7 @@
 # About openKM System
 {: .fs-9 }
 
-openKM是一個開放的知識管理系統，此處分享有關系統安裝、設定及維運的細節
+[openKM](https://www.openkm.com/)是一個開放的知識管理系統，此處分享有關系統安裝、設定及維運的細節
 {: .fs-6 .fw-300 }
 
 [News at 2022-06-22](https://sinotec2.github.io/Focus-on-Air-Quality/GridModels/POST/5IncProc/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [sinotec2.github.io](https://sinotec2.github.io/){: .btn .fs-5 .mb-4 .mb-md-0 } [Bloggs](https://sinotec2.github.io/FAQ/){: .btn .fs-5 .mb-4 .mb-md-0 }
