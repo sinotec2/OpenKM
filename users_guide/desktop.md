@@ -92,6 +92,8 @@ last_modified_date: 2022-12-27 14:27:14
 - 勾選同批處理，也可以按detail圖案全選。
 - 增加屬性(metadata)：針對文件或目錄的評等。按詮釋資料中的定義來勾選。
 
+![fs_sort](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/download.png?raw=true)
+
 ### 文件屬性及預覽
 
 - 位置在「桌面」中下
