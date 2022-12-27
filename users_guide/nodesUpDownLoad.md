@@ -60,3 +60,5 @@ last_modified_date: 2022-12-27 14:27:14
 
 - 點選要下載的檔案，按滑鼠右鍵Download即可下載到window個人的Download(下載) 目錄。
 - 目前openKM_CE版還沒有「只允許讀取」卻不能「下載」功能，因此如果有檔案不允許別人下載，建議連讀取都不必開放。
+
+![download](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/download.png?raw=true)
