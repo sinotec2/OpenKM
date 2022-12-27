@@ -38,11 +38,7 @@ last_modified_date: 2022-12-27 11:00:45
   - ABC hospitals/ Cherokee Nation/ Deloitte/ DGT/ Factor Energia
   - Modria/ Sernageomin/ United States Government/ Ypergas/ Zoetis。
 - 詳見[有關KM決策的建議.pdf][km_dcs]
-  
-
-
 - openKM與其他KMS的比較，可以參考wiki 或網友 的介紹。
-
 - 使用手冊除了官網([6.4][6.4]、[7.1][7.1])之外，亦有泰國機關所摘寫的英文版手冊([OKM6.4][OKM6.4])
 - 其他：可詳見[quick start][qs]
 
@@ -84,7 +80,7 @@ last_modified_date: 2022-12-27 11:00:45
 
 ### 語言
 
-- 有4種可以選。
+- 有4種可以選。中、英、法、西等。
 - 主要影響為畫面指令
 - 即使選英文、檔名如為中文字也可以顯示，只有在進行翻譯是才會有差別。
 
