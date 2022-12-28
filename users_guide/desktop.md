@@ -23,7 +23,7 @@ last_modified_date: 2022-12-27 14:27:14
 
 ## 背景
 
-- 登入openKM後畫面(`桌面`)第一行為主功能表、下拉選單
+- 登入OpenKM後畫面(`桌面`)第一行為主功能表、下拉選單
   - `文件(Files)`與一般軟體之`檔案`功能類似
   - `編輯(Edit)`有關檔案安全性、編輯、屬性、與訂閱
   - `工具(Tools)`系統語言、外觀、選項等設定
@@ -34,7 +34,7 @@ last_modified_date: 2022-12-27 14:27:14
   - [桌面(Desktop)](#桌面desktop)、[文件搜尋(Search)](#文件搜索)、[個人看板(Dashboard)](#個人看板)，可以自由切換。
   - 管理者另還有`管理面板(Admins)`，來控制整個系統。
 
-![entry_adm1](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/entry_adm1.png?raw=true)
+![entry_adm1](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/entry_adm1.png?raw=true)
 
 ## 桌面(Desktop)
 
@@ -95,11 +95,11 @@ last_modified_date: 2022-12-27 14:27:14
 - 勾選同批處理，也可以按detail圖案全選。
 - 增加屬性(metadata)：針對文件或目錄的評等。按詮釋資料中的定義來勾選。
 
-![fs_sort](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/fs_sort.png?raw=true)
+![fs_sort](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/fs_sort.png?raw=true)
 
 - 編輯中(紙張+筆)、有評論文件(黃色便利貼)
 
-![comment](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/comment.png?raw=true)
+![comment](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/comment.png?raw=true)
 
 ### 文件屬性及預覽
 
@@ -116,8 +116,8 @@ last_modified_date: 2022-12-27 14:27:14
 
 ## 文件搜索
 
-- openKM的搜索包括檔名、全文。
-- 進入openKM後，如果知道檔案在「公共文件」哪個架構位置，可以由「桌面」左側目錄下手循序點選。
+- OpenKM的搜索包括檔名、全文。
+- 進入OpenKM後，如果知道檔案在「公共文件」哪個架構位置，可以由「桌面」左側目錄下手循序點選。
 - 如果不知道，可以由左方小工具中的[望遠鏡](#目錄及檔名搜索)下手，尋找資料夾、文件名稱、或類似文件
 - 如果還是不知道，可以用右側的文件搜索頁面，搜尋關鍵字、內容、檔案名、人名或其他
 
@@ -140,7 +140,7 @@ last_modified_date: 2022-12-27 14:27:14
 - 搜索結果可以儲存在左側(保存)或用戶消息中，後者將出現在個人看板。
 - 查找搜索之細節將在[下面]()詳述。
 
-![search](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/search.png?raw=true)
+![search](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/search.png?raw=true)
 
 ## 個人看板
 
@@ -152,6 +152,6 @@ last_modified_date: 2022-12-27 14:27:14
   5. 工作流程：類似傳遞單功能。
   6. 關鍵字集：目前關鍵字檔案的多寡、排序，可做整理。
 
-![dash_board](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/dash_board.png?raw=true)
+![dash_board](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/dash_board.png?raw=true)
 
-![kw_cloud](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/kw_cloud.png?raw=true)
+![kw_cloud](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/kw_cloud.png?raw=true)

@@ -23,7 +23,7 @@ last_modified_date: 2022-12-27 11:00:45
 
 ## 背景
 
-- openKM可以說擁有KMS領域的最大open source社群 ，其他KMS或有免費版本，但並未提供程式碼，openKM的社群版本雖然也提供了專業版和雲端版，但是廠商還是鼓勵社群可以就其程式碼自行修改，以滿足使用者的需求，並且在此歷程提供必要的協助。
+- OpenKM可以說擁有KMS領域的最大open source社群 ，其他KMS或有免費版本，但並未提供程式碼，OpenKM的社群版本雖然也提供了專業版和雲端版，但是廠商還是鼓勵社群可以就其程式碼自行修改，以滿足使用者的需求，並且在此歷程提供必要的協助。
 - 依據2019/7/26日[官網論壇](https://forum.openkm.com/index.php)WHO IS ONLINE：
   - In total there are 374 users online, 
   - 4 registered, 0 hidden and 370guests (based on users active over the past 5 minutes)
@@ -38,7 +38,7 @@ last_modified_date: 2022-12-27 11:00:45
   - ABC hospitals/ Cherokee Nation/ Deloitte/ DGT/ Factor Energia
   - Modria/ Sernageomin/ United States Government/ Ypergas/ Zoetis。
 - 詳見[有關KM決策的建議.pdf][km_dcs]
-- openKM與其他KMS的比較，可以參考wiki 或網友 的介紹。
+- OpenKM與其他KMS的比較，可以參考wiki 或網友 的介紹。
 - 使用手冊除了官網([6.4][6.4]、[7.1][7.1])之外，亦有泰國機關所摘寫的英文版手冊([OKM6.4][OKM6.4])
 - 其他：可詳見[quick start][qs]
 
@@ -53,7 +53,7 @@ last_modified_date: 2022-12-27 11:00:45
   1. 開頭200.200.XXX.XXX均為「內部」網站，與公司資訊安全之管理(檔案進出公司防火牆)「無關」下載後送出公司外部時、或由外部獲得資料上載到KM，進出公司之際還是必須遵守公司資安設定。
   2. 200.200.12.191(master)為備份、屬試驗性質，必要時才開放，請勿存放文件。
 
-![](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/login.png?raw=true)
+![](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/login.png?raw=true)
 
 ### 使用者帳密
 
@@ -66,7 +66,7 @@ last_modified_date: 2022-12-27 11:00:45
     1. 瀏覽器設定為對所有網站、永不儲存密碼，或
     2. 瀏覽器設定對特定網站不儲存密碼(第一次詢問時答否，瀏覽器就會被設定永不儲存該一網站的密碼)，
     3. 必須進入瀏覽器的「設定」中將儲存密碼打開，或在永不儲存特定網站處，將本網站排除。
-5. openKM系統中修改密碼：
+5. OpenKM系統中修改密碼：
 
 - 進入系統後
   1. 在「工具」(Tools)→
@@ -74,7 +74,7 @@ last_modified_date: 2022-12-27 11:00:45
   3. 「用戶配置」，可更改個人密碼、信箱(下述)等設定。
 - 唯「角色」的設定是管理者權限範圍，被分配到某一(些)群組，須由管理者來修改。
 
-|![pw1](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/passwd1.png?raw=true)|![pw2](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/passwd2.png?raw=true)|
+|![pw1](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/passwd1.png?raw=true)|![pw2](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/passwd2.png?raw=true)|
 |:-:|:-:|
 |進入修改密碼畫面之途徑|修改密碼之對話框|
 
@@ -94,7 +94,7 @@ last_modified_date: 2022-12-27 11:00:45
   - 「文件」→刷新，以及「桌面」「個人看板」上方有小工具「刷新」。
   - 按下瀏覽器的「重新整理」系統也會重新載入設定，但「不會」登出，要登出還是要按照下列步驟。
 
-![redraw](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/redraw.png?raw=true)
+![redraw](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/redraw.png?raw=true)
 
 ### 重覆登入
 
@@ -110,7 +110,7 @@ last_modified_date: 2022-12-27 11:00:45
 1. 關閉網頁即可、或
 2. 由File(文件)→Exit(退出)→Accept(接受)
 3. 系統會出現「已經正確關閉」對話框
-4. 開著網頁沒有存取，openKM紀錄是有差別的，所以不必擔心掛網有什麼後果。
+4. 開著網頁沒有存取，OpenKM紀錄是有差別的，所以不必擔心掛網有什麼後果。
 
 [6.4]: <https://docs.openkm.com/kcenter/view/okm-6.4/> "OpenKM(2016)Documentation for OpenKM"
 [7.1]: <https://docs.openkm.com/kcenter/view/okm-7.1/> "OpenKM(2016)Documentation for OpenKM"

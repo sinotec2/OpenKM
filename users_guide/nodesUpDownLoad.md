@@ -23,7 +23,7 @@ last_modified_date: 2022-12-27 14:27:14
 
 ## 背景
 
-- 在openKM中所謂的節點(node,包括文件夾、文件、郵件、訊息等)，在資料庫中形成一個單元，其內容則會拆解成個別封包分別儲存，以增加全文搜尋的速度。
+- 在OpenKM中所謂的節點(node,包括文件夾、文件、郵件、訊息等)，在資料庫中形成一個單元，其內容則會拆解成個別封包分別儲存，以增加全文搜尋的速度。
 
 ## 新建/刪除文件夾
 
@@ -39,7 +39,7 @@ last_modified_date: 2022-12-27 14:27:14
 3. 如果要再在同一目錄增加檔案，可以在同畫面繼續進行。
 4. 「通知用戶」notify to user
 
-![add_new_doc](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/add_new_doc.png?raw=true)
+![add_new_doc](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/add_new_doc.png?raw=true)
 
 ### 通知用戶功能
 
@@ -47,20 +47,20 @@ last_modified_date: 2022-12-27 14:27:14
 - 選擇時要注意是否有勾選「過濾」，如果勾選了，將無名單顯示，須先取消「過濾」才能選擇。
 - 如果方向鍵不能作用，試看看不同方向。
 
-![notify_to_users](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/notify_to_users.png?raw=true)
+![notify_to_users](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/notify_to_users.png?raw=true)
 
 ### email通知功能
 
-- 如果伺服器沒有收信的功能，也不會留存寄件備份，可以在external mail address寫下自己的email，這樣openKM也會寄一份通知給自己做為備份。
+- 如果伺服器沒有收信的功能，也不會留存寄件備份，可以在external mail address寫下自己的email，這樣OpenKM也會寄一份通知給自己做為備份。
 - 由於通知消息的格式語法是html格式，換行必須加註`<br>`，段落設定則為`<p>…</p>`。
 - 注意：
-- linux openKM CE版跨window沒有拉放功能，
+- linux OpenKM CE版跨window沒有拉放功能，
 - 非管理者沒有批次上傳功能，批次上下載詳[後述]()。
 - ZIP上傳可以有批次上傳的效果，但只接受ZIP內英文檔名
 
 ## 下載
 
 - 點選要下載的檔案，按滑鼠右鍵Download即可下載到window個人的Download(下載) 目錄。
-- 目前openKM_CE版還沒有「只允許讀取」卻不能「下載」功能，因此如果有檔案不允許別人下載，建議連讀取都不必開放。
+- 目前OpenKM_CE版還沒有「只允許讀取」卻不能「下載」功能，因此如果有檔案不允許別人下載，建議連讀取都不必開放。
 
-![download](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/download.png?raw=true)
+![download](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/download.png?raw=true)

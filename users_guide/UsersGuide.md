@@ -6,8 +6,8 @@ has_children: true
 permalink: /users_guide/
 ---
 
-# openKM Users Guide
+# OpenKM Users Guide
 {: .no_toc }
 
-openKM 一般使用者手冊
+OpenKM 一般使用者手冊
 {: .fs-6 .fw-300 }
