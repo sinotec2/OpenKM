@@ -36,6 +36,9 @@ last_modified_date: 2022-12-27 14:27:14
 
 ![entry_adm1](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/entry_adm1.png?raw=true)
 
+![widget](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/widget.png?raw=true)
+
+
 ## 桌面(Desktop)
 
 - 包括左側[目錄架構](#目錄架構)、[文件列表](#文件列表)、[檔案內容(Preview)](#文件屬性及預覽)等3個區塊與介面。
