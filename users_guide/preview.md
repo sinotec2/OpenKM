@@ -26,7 +26,7 @@ last_modified_date: 2022-12-28 12:31:48
 - 「桌面」點選檔案後，在下方的Property等頁面最右方頁面，可開啟「文件預覽」。
 
 
-![preview2](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/preview2.png?raw=true)
+![preview1](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/preview1.png?raw=true)
 
 
 
