@@ -25,6 +25,11 @@ last_modified_date: 2022-12-28 12:31:48
 
 - 「桌面」點選檔案後，在下方的Property等頁面最右方頁面，可開啟「文件預覽」。
 
+
+![preview2](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/preview2.png?raw=true)
+
+
+
 ## 調整畫面大小
 
 - 可以拉邊框，或
@@ -42,7 +47,6 @@ last_modified_date: 2022-12-28 12:31:48
 - 去邊、去小工具，為整頁模式，適合橫式之檔案，直式會太小。
 
 ![preview2](https://github.com/sinotec2/openKM/blob/gh-pages/assets/image/preview2.png?raw=true)
-
 
 ## 目前檢視的內容
 
