@@ -23,13 +23,13 @@ last_modified_date: 2022-12-27 14:27:14
 
 ## 背景
 
-- 登入OpenKM後畫面(`桌面`)第一行為主功能表、下拉選單
+- 登入OpenKM後畫面(`桌面`、如圖)第一行為主功能表、下拉選單
   - `文件(Files)`與一般軟體之`檔案`功能類似
   - `編輯(Edit)`有關檔案安全性、編輯、屬性、與訂閱
   - `工具(Tools)`系統語言、外觀、選項等設定
   - `收藏夾(Bookmarks)`會記錄看過文件的位置，
   - `樣板(Templates)`功能未開放。
-- 第二行左側為小工具，下載、列印、開目錄、上傳檔案等等
+- 第二行左側為小工具，下載、列印、開目錄、上傳檔案等等(如下圖)
 - 第二行右側有3個頁面(tab)
   - [桌面(Desktop)](#桌面desktop)、[文件搜尋(Search)](#文件搜索)、[個人看板(Dashboard)](#個人看板)，可以自由切換。
   - 管理者另還有`管理面板(Admins)`，來控制整個系統。
@@ -37,7 +37,6 @@ last_modified_date: 2022-12-27 14:27:14
 ![entry_adm1](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/entry_adm1.png?raw=true)
 
 ![widget](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/widget.png?raw=true)
-
 
 ## 桌面(Desktop)
 
@@ -141,7 +140,7 @@ last_modified_date: 2022-12-27 14:27:14
   - 英文則不限。
   - 輸入後必須按`enter`鍵，系統出現「正在更新」隨即在下方出現文件位置及名稱
 - 搜索結果可以儲存在左側(保存)或用戶消息中，後者將出現在個人看板。
-- 查找搜索之細節將在[下面]()詳述。
+- 查找搜索之細節將在[下面](https://sinotec2.github.io/OpenKM/users_guide/edit_search/#搜尋功能)詳述。
 
 ![search](https://github.com/sinotec2/OpenKM/blob/gh-pages/assets/image/search.png?raw=true)
 
