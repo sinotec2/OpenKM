@@ -3,142 +3,9 @@
 
 ### 安裝
 
-#### openKM主程式
 
-openKM官網[^9]有詳細的安裝過程說明，還有其他周邊軟體的安裝或設定，注意事項：
+### 
 
-##### 磁碟機空間：由於openKM系統內不能局部選擇磁碟機存取位置，因此必須事先將\$TOMCAT\_HOME/repository放在足夠大的磁碟機，以免事後搬遷(可以由Administration→statistic看到系統資源使用的情況，詳下述)。
-
-##### Openoffice以及Tesseract的安裝。安裝之後要找到其檔案所在位置，以便在openKM裏逐一設定，如Configuration之check。
-
-system.swftools.pdf2swf
-
-OK - /home/openkm/tomcat/bin/pdf2swf
-
-system.imagemagick.convert
-
-OK - /usr/bin/convert
-
-system.ocr
-
-OK - **/usr/bin/tesseract**
-
-system.openoffice.path
-
-OK - **/opt/openoffice4/program/soffice.bin**
-
-##### 加入使用者：初始登入okmAdmin(pw:admin)，再增加管理者之使用者帳密。批次增加帳密可參考下述。
-
-##### 有關中文之介面[^10]：可下載[^11]後在Configure→default.lang處設定，之後可在Administration→Language處修改局部之翻譯。
-
-##### 有關mail server：openKM需要有mail server，因此需要在啟動tomcat時，同時將postfix啟動，(至少)使notify功能能作用。
-
-##### Window系統上安裝之注意事項
-
-###### mysql版本
-
-雖然官網有介入MySQL8版本的注意及修改事項，但經測試結果發現，java(新版connector/J)並不能連結上資料庫平台，還是安裝舊版MySQL比較穩定能搭配。因此如果伺服器上有別的mysql運作需求將會遭遇困難，符合伺服器必須是專用(dedicated)之原則。
-
-###### okmAdmin登入後trash目錄無法產生之問題
-
-此問題應為OpenKM.cfg內重複新增(create)hibernate.hbm2ddl所置，將其改為none即可。
-
-###### openoffice目錄設定：不需要到**"program"(C:\\Program Files (x86)\\OpenOffice 4)**
-
-###### tomcat版本與中文顯示
-
-網友曾提及tomcat
-8內設字形並非UTF8的問題，並且建議將tomcat.connector.uri.encoding設成UTF-8，然而此舉在centos卻不需要，且無益於中文字的顯示，顯示可能還有其他因素無法正確顯示中文字型。
-
-#### Mysql的管理
-
-##### 給定root的密碼：mysqladmin -u root password
-
-##### 給定其他使用者的帳密[^12]
-
-##### 給定特定的socket: \--socket=\"/var/lib/mysql/mysql.sock\"
-
-#### JBOSS的安裝
-
-JBOSS是早期或window所需的虛擬機器平台(JVM)。由於目前最新的版本[^13](
-boss-as-7.1.1.Final)
-與java8並不相容，必須使用較早版本。安裝過程也可以參考openKM早期版本的介紹[^14]。
-
-可以由redhat官網下載(須註冊[^15])後，按照7.1版方式安裝即可。
-
-由於openKM已經佔用了8080的端口，因此要在standalone.xml檔[^16]中將8080改成其他端口。同時也要注意將127.0.0.1改成intra
-net IP位址。
-
-啟動前後，要記得加入使用者帳密。JBOSS要求的密碼必須是8碼，同時要求至少一碼非英數，要特別注意。
-
-### 公共空間權限與內容的管理
-
-不論是哪一層角色或群組，使用者存取檔案等各項動作均有紀錄可供追蹤。
-
-#### 有關「管理者」
-
-「管理者」administrator有最大的權限，甚至包括個人空間。如果有資料是不願意讓管理者看到、處理的，請不要出現在KM。
-
-有關使用者增、刪、群組角色增刪、群組設定(指派)，檔案的批次上(下)載等系統內作業，都必須是「管理者」。
-
-#### 有關ROLE\_USER可以瀏覽(下載)之內容
-
-ROLE\_USER看來是最低的權限，但不能刪除，因為登入者必須都有一個ROLE\_USER群組[^17]，可以看待為訪客。意謂在okm:root根目錄，必須要開放ROLE\_USER至少可以讀，KM系統也必須要充實訪客可以參觀的內容，達到「跨領域」交流的目標。至於其他則必須設為限制瀏覽，正面表列以下建議：
-
-##### sinotech KM(可下載)的內容
-
-##### 跨部門會需要查找的重要專業訊息：重要計畫環評報告、環境品質年報、氣象年報、新聞剪影等、研討會報告
-
-##### 對公司內各部門開放之專題演講或課程
-
-##### 同仁在公司內、外發表之期刊文章、學術演講簡報
-
-##### 有關公司本身的即時資訊：
-
-###### 公司、部門重要發表、簡介、簡報參考訊息等，(如果有)年度CSR，也可以陳列於此。
-
-###### openKM官網連結、手冊、基本統計、openKM動態資訊等等。
-
-#### ROLE\_USER限制瀏覽項目建議如下：
-
-##### 計畫成果與半成果：按照現行O槽與Y槽管制架構，跨部門是不能瀏覽的。
-
-#### 有關部門群組、跨部門專案群組與KM之管理
-
-按照公司制度部門經理轄下有2\~3位技術經理不等，各管理專門的技術領域，同樣延續ROLE\_USER的管理概念，部門也必須設有每一位成員可以瀏覽的內容、以及各技術組之範疇內容。
-
-部門(department)如ROLE\_E1、ROLE\_E2、ROLE\_WW、ROLE\_ER，以2碼約定。技術組(division)如AIR、EIA、WWc(減碳)、WWs(管線)、WWp(廠站)等。
-
-跨部門專案是特例，由計畫經理管理，同樣以下必須設有共同與副經理所轄範疇。建議以計畫編號做為群組代碼。如為跨計畫常設性的研發領域，則直接以專題方式辦理。
-
-部門經理必須管理部門成員可以瀏覽、與限制瀏覽的範疇。
-
-#### 有關技術群組、專案群組與KM之管理
-
-按照現行制度，技術經理以下管轄4\~5位計畫主管(如air1\~air5、eia1\~eia5)，各有管理計畫1\~5個不等。同樣技經也必須率定技術組必須要能看到的範疇，以及各組自行管理的範疇。
-
-#### 計畫主管層級之管理
-
-為利工作推動，計畫主管必須要求所轄工程師提供重要的技術文件，以供同組其他工程師工作所需。如為可以公開到上層跨組(部)的，經上層主管同意後，以打開上層跨組(部)其他同仁的權限。
-
-### 系統資源管理
-
-「管理面板」→statistic內容雖然不多，但也都與系統資源的現況與最佳狀況的管理有關。
-
-![](media/image14.png){width="5.799305555555556in"
-height="4.642361111111111in"}
-
-#### 檔案大小與個數:如有垃圾桶待清空，可以通知該使用者清空垃圾桶。如有個人資料夾過大，同樣提醒其有效管理個人資源。
-
-#### 系統記憶體使用比例：
-
-如果伺服器開啟太久、無效登入太多，系統記憶體會持續降低，有效提昇的作法，即為定期停止伺服器再開啟即可。
-
-目前已經設定系統在每天同步備份後，重新啟動，以保持記憶體可能在安全範圍。
-
-#### Java虛擬(JVM)記憶體容量
-
-#### 磁碟機空間：如果檔案久未查詢，則將其納入永久保存，此處只要留下摘要、連結、或詮釋資料即可。
 
 ### 批次新增或修改使用者設定
 
@@ -658,31 +525,14 @@ df.set\_index(\'level\').to\_csv(logP+\'du.csv\')
 
 [^8]: [[https://www.openkm.com/en/features.html]{.underline}](https://www.evernote.com/OutboundRedirect.action?dest=https%3A%2F%2Fwww.openkm.com%2Fen%2Ffeatures.html)
 
-[^9]: https://docs.openkm.com/kcenter/view/okm-6.3-com/installing-on-redhat-and-centos.html
 
-[^10]: OpenKM安装（CentOS6）[[http://www.openkm.net/1409.html]{.underline}](http://www.openkm.net/1409.html)
 
-[^11]: File:OpenKM 6
-    zh-TW.sql[[https://www.openkm.com/wiki/index.php/File:OpenKM\_6\_zh-TW.sql]{.underline}](https://www.openkm.com/wiki/index.php/File:OpenKM_6_zh-TW.sql)
 
-[^12]: 說明MySQL如何修改密碼與忘記密碼時如何重設密碼[[https://emn178.pixnet.net/blog/post/87659567-mysql]{.underline}](https://emn178.pixnet.net/blog/post/87659567-mysql)修改密碼與忘記密碼重設
 
-[^13]: ScaleBuz, WHAT IS JBOSS AND HOW TO INSTALL JBOSS ON CENTOS 6 ?
-    [[https://scalebuzz.com/what-is-jboss-and-how-to-install-jboss-on-centos-6/]{.underline}](https://scalebuzz.com/what-is-jboss-and-how-to-install-jboss-on-centos-6/)
 
-[^14]: Configure JBoss service,
-    [[https://www.openkm.com/wiki/index.php/Configure\_JBoss\_service]{.underline}](https://www.openkm.com/wiki/index.php/Configure_JBoss_service)
 
-[^15]: [[https://developers.redhat.com/products/eap/download]{.underline}](https://developers.redhat.com/products/eap/download)
 
-[^16]: /opt/jboss-eap-6.3/bin/standalone/configuration/standalone.xml
 
-[^17]: As is explained in wiki and in some forum post, all users must
-    have UserRole ( mandatory ) is a role for connection that must not
-    be propagated to repository because all users have it. It\'s
-    administrator job to change default okm:root security configuration
-    for it purpose and add there new roles,
-    https://forum.openkm.com/viewtopic.php?t=4024
 
 [^18]: Creating users from scripts,
     https://docs.openkm.com/kcenter/view/okm-6.3-com/creating-users-from-scripts.html
