@@ -212,7 +212,7 @@ A.1.2	KM的理念與策略
 A.1.3	管理者權限功能
 一、	安裝
 (一)	OpenKM主程式
-OpenKM官網 有詳細的安裝過程說明，還有其他周邊軟體的安裝或設定，注意事項：
+OpenKM[官網](https://docs.openkm.com/kcenter/view/okm-6.3-com/installing-on-redhat-and-centos.html) 有詳細的安裝過程說明，還有其他周邊軟體的安裝或設定，注意事項：
 1.	磁碟機空間：由於OpenKM系統內不能局部選擇磁碟機存取位置，因此必須事先將$TOMCAT_HOME/repository放在足夠大的磁碟機，以免事後搬遷(可以由Administration→statistic看到系統資源使用的情況，詳下述)。
 2.	Openoffice以及Tesseract的安裝。安裝之後要找到其檔案所在位置，以便在OpenKM裏逐一設定，如Configuration之check。
 system.swftools.pdf2swf
@@ -224,7 +224,7 @@ OK - /usr/bin/tesseract
 system.openoffice.path
 OK - /opt/openoffice4/program/soffice.bin
 3.	加入使用者：初始登入okmAdmin(pw:admin)，再增加管理者之使用者帳密。批次增加帳密可參考下述。
-4.	有關中文之介面 ：可下載 後在Configure→default.lang處設定，之後可在Administration→Language處修改局部之翻譯。
+4.	有關[中文之介面](http://www.openkm.net/1409.html)：可下載[OpenKM 6 zh-TW.sql](https://www.openkm.com/wiki/index.php/File:OpenKM_6_zh-TW.sql) 後在Configure→default.lang處設定，之後可在Administration→Language處修改局部之翻譯。
 5.	有關mail server：OpenKM需要有mail server，因此需要在啟動tomcat時，同時將postfix啟動，(至少)使notify功能能作用。
 6.	Window系統上安裝之注意事項
 (1)	mysql版本
@@ -236,12 +236,13 @@ OK - /opt/openoffice4/program/soffice.bin
 網友曾提及tomcat 8內設字形並非UTF8的問題，並且建議將tomcat.connector.uri.encoding設成UTF-8，然而此舉在centos卻不需要，且無益於中文字的顯示，顯示可能還有其他因素無法正確顯示中文字型。
 (二)	Mysql的管理
 1.	給定root的密碼：mysqladmin -u root password
-2.	給定其他使用者的帳密 
+2.	給定其他使用者的帳密(說明MySQL如何修改密碼與忘記密碼時如何重設密碼) 
 3.	給定特定的socket: --socket="/var/lib/mysql/mysql.sock"
 (三)	JBOSS的安裝
-JBOSS是早期或window所需的虛擬機器平台(JVM)。由於目前最新的版本 ( boss-as-7.1.1.Final) 與java8並不相容，必須使用較早版本。安裝過程也可以參考OpenKM早期版本的介紹 。
-可以由redhat官網下載(須註冊 )後，按照7.1版方式安裝即可。
-由於OpenKM已經佔用了8080的端口，因此要在standalone.xml檔 中將8080改成其他端口。同時也要注意將127.0.0.1改成intra net IP位址。
+JBOSS是早期或window所需的虛擬機器平台(JVM)。由於目前最新的版本(boss-as-7.1.1.Final)
+ScaleBuz, WHAT IS JBOSS AND HOW TO INSTALL JBOSS ON CENTOS 6 ? https://scalebuzz.com/what-is-jboss-and-how-to-install-jboss-on-centos-6/ 與java8並不相容，必須使用較早版本。安裝過程也可以參考OpenKM早期版本的介紹Configure JBoss service, https://www.openkm.com/wiki/index.php/Configure_JBoss_service 。
+可以由redhat官網下載(須註冊https://developers.redhat.com/products/eap/download)後，按照7.1版方式安裝即可。
+由於OpenKM已經佔用了8080的端口，因此要在standalone.xml檔(/opt/jboss-eap-6.3/bin/standalone/configuration/standalone.xml)中將8080改成其他端口。同時也要注意將127.0.0.1改成intra net IP位址。
 啟動前後，要記得加入使用者帳密。JBOSS要求的密碼必須是8碼，同時要求至少一碼非英數，要特別注意。
 二、	公共空間權限與內容的管理
 不論是哪一層角色或群組，使用者存取檔案等各項動作均有紀錄可供追蹤。
@@ -249,7 +250,7 @@ JBOSS是早期或window所需的虛擬機器平台(JVM)。由於目前最新的�
 「管理者」administrator有最大的權限，甚至包括個人空間。如果有資料是不願意讓管理者看到、處理的，請不要出現在KM。
 有關使用者增、刪、群組角色增刪、群組設定(指派)，檔案的批次上(下)載等系統內作業，都必須是「管理者」。
 (二)	有關ROLE_USER可以瀏覽(下載)之內容
-ROLE_USER看來是最低的權限，但不能刪除，因為登入者必須都有一個ROLE_USER群組 ，可以看待為訪客。意謂在okm:root根目錄，必須要開放ROLE_USER至少可以讀，KM系統也必須要充實訪客可以參觀的內容，達到「跨領域」交流的目標。至於其他則必須設為限制瀏覽，正面表列以下建議： 
+ROLE_USER看來是最低的權限，但不能刪除，因為登入者必須都有一個ROLE_USER群組(As is explained in wiki and in some forum post, all users must have UserRole ( mandatory ) is a role for connection that must not be propagated to repository because all users have it. It's administrator job to change default okm:root security configuration for it purpose and add there new roles, https://forum.openkm.com/viewtopic.php?t=4024)，可以看待為訪客。意謂在okm:root根目錄，必須要開放ROLE_USER至少可以讀，KM系統也必須要充實訪客可以參觀的內容，達到「跨領域」交流的目標。至於其他則必須設為限制瀏覽，正面表列以下建議： 
 1.	sinotech KM(可下載)的內容
 2.	跨部門會需要查找的重要專業訊息：重要計畫環評報告、環境品質年報、氣象年報、新聞剪影等、研討會報告
 3.	對公司內各部門開放之專題演講或課程
