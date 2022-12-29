@@ -13,7 +13,7 @@ last_modified_date: 2022-12-27 10:18:49
 [OpenKM](https://www.openkm.com/)是一個開放的知識管理系統，此處分享有關系統安裝、設定及維運的細節
 {: .fs-6 .fw-300 }
 
-[News at 2022-06-22](https://sinotec2.github.io/Focus-on-Air-Quality/GridModels/POST/5IncProc/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [sinotec2.github.io](https://sinotec2.github.io/){: .btn .fs-5 .mb-4 .mb-md-0 } [Bloggs](https://sinotec2.github.io/FAQ/){: .btn .fs-5 .mb-4 .mb-md-0 } [FAQ Home](https://sinotec2.github.io/Focus-on-Air-Quality/){: .btn .fs-5 .mb-4 .mb-md-0 }
+[News at 2022-06-22](https://sinotec2.github.io/Focus-on-Air-Quality/GridModels/POST/5IncProc/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [sinotec2.github.io](https://sinotec2.github.io/){: .btn .fs-5 .mb-4 .mb-md-0 } [Blog](https://sinotec2.github.io/FAQ/){: .btn .fs-5 .mb-4 .mb-md-0 } [FAQ Home](https://sinotec2.github.io/Focus-on-Air-Quality/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
