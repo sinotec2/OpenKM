@@ -199,9 +199,6 @@ df.set_index('level').to_csv(logP+'du.csv')
 
 
 
-[^21]: MySQLdb User's Guide,
-    http://mysql-python.sourceforge.net/MySQLdb.html
-
 [^22]: https://blog.gtwang.org/linux/rsync-local-remote-file-synchronization-commands/
 
 [^23]: [[https://docs.openkm.com/kcenter/view/okm-6.3-com/crontab.html]{.underline}](https://docs.openkm.com/kcenter/view/okm-6.3-com/crontab.html)
